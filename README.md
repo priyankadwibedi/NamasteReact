@@ -1,1 +1,1 @@
-# NamasteReact
+# Learn React from Scratch.

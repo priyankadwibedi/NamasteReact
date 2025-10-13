@@ -1,4 +1,4 @@
-# NamasteReact
+# Learn React from Scratch.
 
 1. what is Emmet?
    Emmet is a VS code extension or a toolkit used by developers that basically used to create a boiler plate codes such as HTML or CSS.

@@ -1,43 +1,32 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-/**
- * this is an example of siblings
- * <div id="parent">
- *    <div id="child">
- *       <h1>I am h1 tag/h1>
- *       <h2>I am h2 tag</h2>
- *     </div>
- * </div>
- * 
- * another example below is for the nested child
- * * <div id="parent">
- *    <div id="child">
- *       <h1>I am h1 tag/h1>
- *       <h2>I am h2 tag</h2>
- *     </div>
- *    <div id="child2">
- *       <h1>I am h1 tag/h1>
- *       <h2>I am h2 tag</h2>
- *     </div>
- * </div>
- *  this is nested form in REACT
- */
-
-
-const parent = React.createElement(
-"div",
- {id:"parent"},
- [React.createElement(
-    "div",
-    {id:"child",key:"child1"},
-    [React.createElement("h1",{key:"h1-1"},"I am h1 tag"),React.createElement("h2",{key:"h2-1"},"I am h2 tag")],
-      React.createElement(
-        "div",
-        {id:"child2",key:"child2"},
-        [React.createElement("h1",{key:"h1-2"},"I am h1 tag"),React.createElement("h2",{key:"h2-2"},"I am h2 tag")]
-     )
- )]
+//React Element
+const jsxHeading = (
+    <h1 className="heading" tabIndex="5">
+        This is learning React with JSX
+    </h1>
 );
+
+const elem = <span>This is React Element</span>
+
+//Title Component
+
+const Title = () =>(
+    <div>
+    {elem}
+ <img src="https://cdn.vectorstock.com/i/750p/05/72/smiling-superhero-bear-cub-vector-34390572.avif"/>;
+ </div>
+);
+
+//Heading Functional Component
+const Heading = () => (
+    <div id="container">
+    {jsxHeading}
+    <Title/>
+    <h1> This is an example of functional componennt</h1>
+    </div>
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<Heading/>);

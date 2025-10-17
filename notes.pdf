@@ -1,0 +1,37 @@
+Chapter 02 - Assignment - Igniting our App
+Please Note: Write the answers and code on your own while finishing your assignments. Try to
+put down your thoughts into words by yourself in your own words. (This will help you develop
+muscle memory and you will remember all the concepts properly) ✌
+# Theory Assignment:
+● - What is `NPM`?
+     npm is a package manager.
+● - What is `Parcel/Webpack`? Why do we need it?
+     Parcel\Webpack is a bundler. We need it because it helps us to bundle everything and makes the app dev and prod ready.
+● - What is `.parcel-cache`
+     .parcel-cache is a folder that gets created when we run npx parcel index.html. It basically caches all the files that helps in HMR.
+● - What is `npx` ?
+       npx is a command that we use for the execution of any npm package.
+● - What is difference between `dependencies` vs `devDependencies`
+      dependencies are normal dependencies that can be used in development and production. But devDependencies can only be used during development 
+      phase.
+● - What is Tree Shaking?
+● - What is Hot Module Replacement?
+● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+● - What is `.gitignore`? What should we add and not add into it?
+       .gitignore is a file basically where we can add the folders,or any files that git will ignore to not push to the remote repository.
+            we can add the files that cannot be regenrated but we should avoid something that can be easily regenrated in the servers like .node_modules.
+● - What is the difference between `package.json` and `package-lock.json`
+        package.json is a file where it configures for our npm and we can see all versions of the dependencies. but in .package-lock.json it actually locks the versions of the dependencies.
+● - Why should I not modify `package-lock.json`?
+      it shouldnt be modified because it actually locks the dependencies that are needed in the application. And modifying it can break.
+● - What is `node_modules` ? Is it a good idea to push that on git?
+       node_modules is like a database for our packages that our application needs. No, its not a good idea to push it to git.
+● - What is the `dist` folder?
+      dist folder gets generated once we build our app. It actually keeps the minified versions for all the files.
+● - What is `browserlists`.
+       browserlists is a dependency that we can add to our applicaiton where we can specify that upto which versions of browsers that our app can support. like
+        browserlists:[last 2 versions]- this will run our app in all the browsers with the current version as well as the last 2 versions.
+Read about dif bundlers: vite, webpack, parcel
+● Read about: ^ - caret and ~ - tilda
+● Read about Script types in html (MDN Docs)

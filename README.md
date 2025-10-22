@@ -20,3 +20,24 @@
 
 7. What is async and defer?
    Async and defer are a boolean attributes that are used in script tags. when the browser encounters the async tag it the html parsing goes on and script tags are loaded from network asynchronously and once its available itexecutes it and then resumes the browser parsing. In case of defer, the html parsing and loading of scripts goes on parallely and once the html parsing finishes the execution of scripts starts. The difference is that async tags doesnt loads the scripts one by one as it asynchronous and defer loads it one by one in order.
+
+
+
+   //
+   /*
+1) Header Component
+     -Logo
+     - Nav links
+2) Body Component
+    - Search bar/ button
+    - Resturants Container
+         - Resturant card
+             -img
+              -name of res,star rating , cuisine , delivery time etc
+3) Footer
+     -Copyright
+     - Links
+      -Contact
+*/
+
+//Header Component

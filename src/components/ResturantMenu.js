@@ -13,7 +13,7 @@ const ResturantMenu = () =>{
     const photoRef = resInfo.photos?.[0]?.photo_reference;
    console.log("Photoref:" + photoRef);
    const photoUrl = photoRef
-   ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${photoRef}&key=AIzaSyBgInNLopF2_eEBsi1WX4Gv-Ie0GwRLTi4`
+   ? `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${photoRef}&key="YOUR_KEY"`
     : "https://via.placeholder.com/400";
     console.log("resInfo:" +resInfo);
     return (

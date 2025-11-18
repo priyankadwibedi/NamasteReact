@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is React",
   "scripts": {
-    "start":"parcel index.html",
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
@@ -21,9 +21,10 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.30.1"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }

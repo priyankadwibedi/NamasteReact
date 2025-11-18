@@ -23,8 +23,9 @@
 }
 
 .res-card{
-    margin: 10px;
+    margin: 14px;
     padding: 5px;
+    /* height: 500px; */
     width: 200px;
 }
 
@@ -43,4 +44,30 @@
 
 .btn-filter{
     margin: 12px;
+}
+
+.search-filter{
+    margin: 12px;
+}
+
+.btn-login{
+    margin: 5px;
+}
+
+.res-card-shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.shimmer-cards{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+
+.user-card{
+    padding:5px;
+    border: 1px solid black;
 }

@@ -13,7 +13,7 @@ const Body = () =>{
    },[]);
 
    async function getResturants() {
-       const data = await fetch("https://corsproxy.io/?url=https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=39.2904,-76.6122&radius=2000&type=restaurant&key=AIzaSyBgInNLopF2_eEBsi1WX4Gv-Ie0GwRLTi4");
+       const data = await fetch("https://corsproxy.io/?url=https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=39.2904,-76.6122&radius=2000&type=restaurant&key="YOUR_KEY");
        const json = await data.json();
        console.log(json);
        console.log("data:" +json.results);
